@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 50px;
+  height: auto;
+  pointer-events: none;
+}
+
+.App-header {
+  background:white;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #1e4177;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 90%;
+  margin: 10px auto;
+ 
+}
+
+.App-header h2{
+  margin: 0px;
+  padding:0px;
+}
+
+
+main{
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background: rgb(105,221,213);
+  background: linear-gradient(180deg, rgba(105,221,213,1) 0%, rgba(27,173,203,1) 100%);
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 90%;
+  padding: 20px;
+  margin: 10px auto;
+  background-color: #61dafb;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  min-width: 90%;
+  margin: 20px auto;
+}
+.card .content{
+  margin: 20px;
+}
+
+
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.App-link {
+  color: #61dafb;
+}
+.small.images {
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 90%;
+  margin: 20px auto;
+}
